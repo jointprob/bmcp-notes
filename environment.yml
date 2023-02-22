@@ -3,12 +3,13 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - _openmp_mutex=5.1=1_gnu
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
   - atk-1.0=2.36.0=ha1a6a79_0
   - ca-certificates=2023.01.10=h06a4308_0
   - cairo=1.16.0=hb05425b_3
   - certifi=2022.12.7=py39h06a4308_0
+  - click=8.1.3=unix_pyhd8ed1ab_2
   - expat=2.4.9=h6a678d5_0
   - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
   - font-ttf-inconsolata=2.001=hcb22688_0
@@ -19,9 +20,13 @@ dependencies:
   - fonts-conda-ecosystem=1=hd3eb1b0_0
   - freetype=2.12.1=h4a9f257_0
   - fribidi=1.0.10=h7b6447c_0
+  - g-ir-build-tools=1.72.0=py39h3707be2_1
+  - g-ir-host-tools=1.72.0=h1def2ed_1
   - gdk-pixbuf=2.42.8=h433bba3_1
-  - glib=2.69.1=h4ff587b_1
-  - gobject-introspection=1.72.0=py39hbb6d50b_0
+  - gettext=0.21.1=h27087fc_0
+  - glib=2.70.2=h780b84a_4
+  - glib-tools=2.70.2=h780b84a_4
+  - gobject-introspection=1.72.0=py39habf54e5_1
   - graphite2=1.3.14=h295c915_1
   - graphviz=2.50.0=h3cd0ef9_0
   - gtk2=2.24.33=h73c1081_2
@@ -32,10 +37,13 @@ dependencies:
   - ld_impl_linux-64=2.38=h1181459_1
   - lerc=3.0=h295c915_0
   - libdeflate=1.8=h7f8727e_5
-  - libffi=3.3=he6710b0_2
-  - libgcc-ng=11.2.0=h1234567_1
+  - libffi=3.4.2=h7f98852_5
+  - libgcc-ng=12.2.0=h65d4601_19
   - libgd=2.3.3=h695aa2c_1
-  - libgomp=11.2.0=h1234567_1
+  - libgirepository=1.72.0=h26ff761_1
+  - libglib=2.70.2=h174f98d_4
+  - libgomp=12.2.0=h65d4601_19
+  - libiconv=1.17=h166bdaf_0
   - libpng=1.6.37=hbc83047_0
   - librsvg=2.54.4=h19fe530_0
   - libstdcxx-ng=11.2.0=h1234567_1
@@ -45,17 +53,21 @@ dependencies:
   - libwebp-base=1.2.4=h5eee18b_0
   - libxcb=1.15=h7f8727e_0
   - libxml2=2.9.14=h74e7548_0
+  - libzlib=1.2.13=h166bdaf_4
   - lz4-c=1.9.4=h6a678d5_0
   - ncurses=6.4=h6a678d5_0
   - ninja=1.10.2=h06a4308_5
   - ninja-base=1.10.2=hd09550d_5
-  - openssl=1.1.1s=h7f8727e_0
+  - openssl=3.0.8=h0b41bf4_0
   - pango=1.50.7=h05da053_0
   - pcre=8.45=h295c915_0
   - pip=23.0=pyhd8ed1ab_0
   - pixman=0.40.0=h7f8727e_1
-  - python=3.9.6=h12debd9_1
+  - pkg-config=0.29.2=h36c2ea0_1008
+  - python=3.9.7=hf930737_3_cpython
+  - python-dotenv=0.21.1=pyhd8ed1ab_0
   - python-graphviz=0.17=pyhaef67bd_0
+  - python_abi=3.9=3_cp39
   - readline=8.2=h5eee18b_0
   - setuptools=65.6.3=py39h06a4308_0
   - sqlite=3.40.1=h5082296_0
@@ -63,7 +75,7 @@ dependencies:
   - tzdata=2022g=h04d1e81_0
   - wheel=0.37.1=pyhd3eb1b0_0
   - xz=5.2.10=h5eee18b_1
-  - zlib=1.2.13=h5eee18b_0
+  - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=ha4553b6_0
   - pip:
     - absl-py==1.4.0
